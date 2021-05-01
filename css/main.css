@@ -19,14 +19,15 @@ html {
 }
 
 body {
-  margin: 1.3rem;
+  margin: 0 1.3rem;
 }
 
 /*
   Add to anything that needs a bottom margin,for nice, cohesive vertical rhythm
 */
+
 h1,
-p {
+article p {
   margin: 0 0 1.3rem;
 }
 
@@ -76,6 +77,8 @@ article ol {
   html {
     margin: 0 auto;
     width: 80%;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   blockquote {
@@ -89,6 +92,8 @@ article ol {
   html {
     margin: 0 auto;
     width: 80%;
+    font-size: 120%;
+    line-height: 1.5;
   }
 
   article ol {
@@ -102,5 +107,7 @@ article ol {
   html {
     margin: 0 auto;
     width: 80%;
+    font-size: 130%;
   }
+
 }
