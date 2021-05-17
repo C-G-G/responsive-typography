@@ -33,6 +33,7 @@ p {
 
 article {
   max-width: 43em;
+  padding-top: 1.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
@@ -82,14 +83,19 @@ article ol {
 
   html {
     margin: 0 auto;
-    width: 80%;
+
+    /* width: 80%; */
     font-size: 110%;
     line-height: 1.4;
   }
 
-  article p {
-    margin: 0 0 1.4rem;
+  article {
+    padding-top: 1.4rem;
   }
+
+  /* article p {
+    margin: 0 0 1.4rem;
+  } */
 
   blockquote {
     max-width: 24em;
@@ -101,18 +107,23 @@ article ol {
 
   html {
     margin: 0 auto;
-    width: 80%;
+
+    /* width: 80%; */
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  article {
+    padding-top: 1.5rem;
   }
 
   article ol {
     padding-left: 0;
   }
 
-  article p {
-    margin: 0 0 1.5rem;    
-  }
+  /* article p {
+    margin: 0 0 1.5rem;
+  } */
 
 }
 
@@ -120,7 +131,8 @@ article ol {
 
   html {
     margin: 0 auto;
-    width: 80%;
+    
+    /* width: 80%; */
     font-size: 130%;
   }
 
