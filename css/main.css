@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  margin: 0 1.3rem;
+  margin: 0;
 }
 
 /*
@@ -27,12 +27,14 @@ body {
 */
 
 h1,
-article p {
+p {
   margin: 0 0 1.3rem;
 }
 
 article {
   max-width: 43em;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article h1 {
@@ -46,6 +48,10 @@ article header {
 
 article header p {
   font-style: italic;
+}
+
+article p {
+  margin: 0 0 1.3rem;
 }
 
 article > p:last-child {
@@ -81,6 +87,10 @@ article ol {
     line-height: 1.4;
   }
 
+  article p {
+    margin: 0 0 1.4rem;
+  }
+
   blockquote {
     max-width: 24em;
   }
@@ -98,6 +108,10 @@ article ol {
 
   article ol {
     padding-left: 0;
+  }
+
+  article p {
+    margin: 0 0 1.5rem;    
   }
 
 }
